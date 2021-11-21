@@ -11,7 +11,8 @@ import SwiftUI
 struct TestFeedApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FeedView(model: .init())
+                .background(Color.white)
         }
     }
 }
